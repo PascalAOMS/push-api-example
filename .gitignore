@@ -1,0 +1,75 @@
+### Boilerplate ###
+build
+tasks
+yarn.lock
+
+### Laravel ###
+public
+vendor
+
+
+### WordPress w/ Bedrock ###
+.env
+*.log
+vendor
+production.zip
+
+web/wp
+web/app/plugins
+web/app/advanced-cache.php
+web/app/backup-db/
+web/app/backups/
+web/app/blogs.dir/
+web/app/cache/
+web/app/upgrade/
+web/app/wp-cache-config.php
+
+
+## Uploads
+# DB Backup
+web/app/uploads/wp-sync-db
+
+web/app/uploads/**/*-*x[0-9][0-9].*
+web/app/uploads/**/*-*x[0-9][0-9][0-9].*
+web/app/uploads/**/*-*x[0-9][0-9][0-9][0-9].*
+
+
+
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Misc
+license.txt
+readme.html
+sitemap.xml
+sitemap.xml.gz
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+.npm
